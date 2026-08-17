@@ -7,7 +7,7 @@ def get_news():
 
     news_data = [
         {
-            "tit": news.tit,
+            "tit": news.tit, 
             "des": news.des,
             "img": news.img
         }
