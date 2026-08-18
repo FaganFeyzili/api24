@@ -3,13 +3,11 @@ from flask_cors import CORS
 from .routes import get_news
 app = Flask(__name__)
 
-CORS(app, resources={r"/api/news": {
+CORS(app, resources={r"/api/index": {
     "origins": ["https://faganfeyzili.github.io"],
     "methods": ["GET"]
 }})
 
-@app.route("/api/news", methods=["GET"])
- 
+@app.route("/api/index", methods=["GET"])
 def news_route():
     return get_news()
-    
