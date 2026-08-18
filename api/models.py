@@ -1,26 +1,157 @@
-class News: 
+class News:
 
     def __init__(self, tit, des, img):
         self.tit = tit
-        self.des = des 
+        self.des = des
         self.img = img
 
+
 news1 = News(
-    "iPhone 16 Pro Max",
-    "The iPhone 16 Pro Max will feature a larger 6.9-inch display, powered by the A18 Pro chip with enhanced AI capabilities.",
-    "https://github.com/FaganFeyzili/images/blob/main/iphone_16_pro_max.png?raw=true"
+    "Ran-Ban Meta",
+    "You can use the glasses to remind you to make a phone call or even where you parked your car",
+    "https://picsum.photos/400?random=1"
 )
 
 news2 = News(
-    "AirPods Pro 3",
-    "The AirPods Pro 3 are expected to feature new adaptive audio technology, improved noise cancellation, and better battery life.",
-    "https://github.com/FaganFeyzili/images/blob/main/Apple-AirPods-Pro-3.jpg?raw=true"
+    "Amazon's new Fire Tablet",
+    "The company's refreshed Fire HD 8 will get some new AI tools, but they are rolling out the other Amazon products",
+    "https://picsum.photos/400?random=2"
 )
 
 news3 = News(
-    "Apple Watch Ultra 3",
-    "The Apple Watch Ultra 3 will likely maintain the same rugged design as its predecessor but may include new health tracking features.",
-    "https://github.com/FaganFeyzili/images/blob/main/Apple-Watch-Ultra-3.jpg?raw=true"
+    "How I turned my fish tank high tech",
+    "These gadgets made a huge difference in how I care for my fish.",
+    "https://picsum.photos/400?random=3"
 )
 
-news_list = [news1, news2, news3] 
+news4 = News(
+    "Elon Musk made flying even worse so Palantir could profit",
+    "Musk's DOGE was supposed to rebuild the nation's air traffic control system, but it ended up paving the way for Peter Thiel's company to take over.",
+    "https://picsum.photos/400?random=4"
+)
+
+news5 = News(
+    "Apple's camera-equipped AirPods appear in leaked video",
+    "A leaked demo shows earbuds that look like a bulkier version of the AirPods Pro 3, hinting Apple may be testing built-in cameras.",
+    "https://picsum.photos/400?random=5"
+)
+
+news6 = News(
+    "Reddit's AI is turning posts into podcasts and short videos",
+    "Reddit is experimenting with a new way to consume its content by converting text posts into audio and video formats automatically.",
+    "https://picsum.photos/400?random=6"
+)
+
+news7 = News(
+    "Fairphone's latest repairable phone is going on sale in the US",
+    "The Fairphone 6 Plus marks the brand's first official US launch, aimed at people who want an easily repairable smartphone.",
+    "https://picsum.photos/400?random=7"
+)
+
+news8 = News(
+    "ChatGPT is getting a dedicated mode for teens",
+    "OpenAI is rolling out a teen-focused version of ChatGPT with added safeguards and parental controls.",
+    "https://picsum.photos/400?random=8"
+)
+
+news9 = News(
+    "ABC's livestreamed news show is powered by trending topics",
+    "ABC News launched a new livestream program called Searched that builds its coverage around what people are searching for.",
+    "https://picsum.photos/400?random=9"
+)
+
+news10 = News(
+    "This compact Glorious mechanical keyboard is just $35",
+    "The discounted GMMK 3 is on sale, though the deal doesn't include the wrist rest shown in photos.",
+    "https://picsum.photos/400?random=10"
+)
+
+news11 = News(
+    "Wordle meets Clippy in this new word game",
+    "A new daily word game blends Wordle-style guessing with a Clippy-inspired assistant character.",
+    "https://picsum.photos/400?random=11"
+)
+
+news12 = News(
+    "YouTube is changing how it counts views to give the numbers a boost",
+    "YouTube will soon register a view as soon as a video starts playing, matching the counting method used elsewhere.",
+    "https://picsum.photos/400?random=12"
+)
+
+news13 = News(
+    "The Analogue Pocket gets a Supreme makeover in red or gold",
+    "Analogue and Supreme are collaborating on limited metallic editions of the Analogue Pocket handheld console.",
+    "https://picsum.photos/400?random=13"
+)
+
+news14 = News(
+    "Sonos finally added Live Activities controls for your iPhone lock screen",
+    "A new Sonos app update brings support for iOS Live Activities, letting you control playback right from the lock screen.",
+    "https://picsum.photos/400?random=14"
+)
+
+news15 = News(
+    "Apple ordered to change app data consent prompts on iPhones and iPads",
+    "Apple is updating its data-collection consent prompts after pressure from Germany's competition regulator.",
+    "https://picsum.photos/400?random=15"
+)
+
+news16 = News(
+    "WiiM's capable HomePod-esque smart speaker is almost $50 off",
+    "A budget-friendly smart speaker that competes with the big players is currently discounted.",
+    "https://picsum.photos/400?random=16"
+)
+
+news17 = News(
+    "Uber partners with Zipline on Eats drone deliveries",
+    "Uber is teaming up with drone company Zipline to begin airborne food deliveries later this year.",
+    "https://picsum.photos/400?random=17"
+)
+
+news18 = News(
+    "Anthropic explains how Claude's invisible text watermarks will work",
+    "Anthropic clarified how it plans to embed invisible watermarks into text generated by its Claude models.",
+    "https://picsum.photos/400?random=18"
+)
+
+news19 = News(
+    "Whisker's AI-powered litter robot thinks my cats swapped bodies",
+    "A smart litter box that tracks individual cats occasionally mixes up which pet is which.",
+    "https://picsum.photos/400?random=19"
+)
+
+news20 = News(
+    "How to take better photos of your pets",
+    "A few simple tricks can make a big difference in how your pet photos turn out.",
+    "https://picsum.photos/400?random=20"
+)
+
+news21 = News(
+    "Google just added four new phones to the Pixel lineup",
+    "Google expanded its Pixel family with several new devices, including the Pixel 11 Pro.",
+    "https://picsum.photos/400?random=21"
+)
+
+news22 = News(
+    "The iPhone 17's successor might not arrive until 2027",
+    "Reports suggest Apple could push back the launch timeline for the next iPhone generation.",
+    "https://picsum.photos/400?random=22"
+)
+
+news23 = News(
+    "Amazon is fully stepping back from MMOs",
+    "Amazon Games appears to be winding down its involvement in massively multiplayer online titles.",
+    "https://picsum.photos/400?random=23"
+)
+
+news24 = News(
+    "Twitch users can now opt out of allowing their content to be used to train Amazon's AI",
+    "Twitch added a setting letting streamers exclude their content from being used to train Amazon's generative AI models.",
+    "https://picsum.photos/400?random=24"
+)
+
+news_list = [
+    news1, news2, news3, news4, news5, news6, news7, news8, news9, news10,
+    news11, news12, news13, news14, news15, news16, news17, news18, news19, news20,
+    news21, news22, news23, news24
+]
