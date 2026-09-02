@@ -6,7 +6,7 @@ class News:
         self.img = img
 
 
-news1 = News(
+news1 = News( 
     "Ran-Ban Meta",
     "You can use the glasses to remind you to make a phone call or even where you parked your car",
     "https://picsum.photos/400?random=1"
